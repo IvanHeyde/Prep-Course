@@ -1,0 +1,36 @@
+## for ##
+es la palabra clave con la que se inicia el bucle for, 
+luego sigue un parentecis abierto y cerrado dentro del cual se declara,
+primero, una variable que es sobre lo cual se repetira el bucle
+segundo, una declaracion condiciona que determinara que el bucle se detenga cuando esta condicion se falsa
+tercero, el incremento de nuestra variable 
+
+## && ##
+es un operador logico = Y ('AND') sirve para evaluear mas de una expresion (ambas deben ser truepara obtener true), por ejemplo dentro de la condicion de la declaracion if
+ej: 
+
+if (50 < 100 && 10 === 10){
+    console.log('las dos condiciones son ciertas el codigo se ejecuta);
+} 
+
+## || ##
+operador logico = O ('OR') sirve para evalar mas de una expresion (una o ambas deben ser true para obtener true, pero si ambas son falsas devuelve false), por ejemplo dentro de la condicion de la declaracion if
+ej:
+
+if (50 < 100 || 10 === 10){
+    console.log('las dos condiciones son ciertas el codigo se ejecuta);
+} 
+
+## ! ##
+operador logico = NO ('NOT') sirve para devolver el valor booleando opuesto por ejemplo
+ej:
+
+if (!false){
+    console.log('el ! devolvera true, porque es lo contrario de false y el codigo se ejecuta);
+}
+
+ej 2:
+
+if (!(2 + 2 = 4)){
+    console.log( '2 + 2 = 4 es true, por lo que ! devolvera lo contrario osea false y el codigo no se ejecuta);
+}
