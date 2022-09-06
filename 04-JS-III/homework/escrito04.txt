@@ -1,0 +1,17 @@
+## Array ##
+array o arreglo podria explicarlo de manera siplificada como una lista de elementos que pueden ser: numeros booleanos o string
+la longitud y los elementos de un array son variables y se puede acceder a ellos...
+
+ej:
+var array = [0, 'ivan', true] ## determinamos la variable array y le asignamos elementos en su interior 
+
+para acceder a los elementos de un array se utiliza su indice que siempre inicia en 0, para acceder al elemento string 'ivan' usariamos:
+
+array[1] ## ya que 'ivan' se encuentra en el segundo lugar del array, 
+pero este lugar corresponde al indice [1] juntamente porque inicia contado desde [0] 
+
+los array cuentan con varias operaciones realizables, una de estas es acceder a la logitud total de un array, usariamos:
+
+console.log(array.length) ## devolvera la longitud de los elementos del array = 3
+
+para recorrer o interar los valores de un array podemos utilizar el bucle for
