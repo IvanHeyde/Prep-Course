@@ -1,0 +1,11 @@
+## Objeto = contenedor de datos, que puede almacenar mucha informacion sobre una sola cosa,
+los objetos se instancias con llaves {}.
+su sintaxis es "clave: valor" siendo "clave" su identificador.
+los objetos puedes contener muchos pares de clave: valor, y los valores pueden ser cualquier tipo de dato de JS,
+cadenas, numeros, funciones, booleano, matriz o incluso otro objeto.
+para acceder a sus valores debemos hacerlo llamando al nombre del objeto y su clave y se puede hacer usando:
+
+dot notation = con puntos  
+bracket notation =  con corchetes
+ falta
+ 
