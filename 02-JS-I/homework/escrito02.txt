@@ -1,37 +1,14 @@
-variable = es una forma de guardar el valor de algo para utilizarlo mas tarde,
-para declarar una variable se usa el keywords var luego un espacio, luego el nombre de la variable, 
-si queremos asiganar un valor a esa variable deberiamos colocar luego el signo = y seguido su valor
+variable = es como una caja donde se guarda cualquier tipo de objeto
 
-ej: var i = 10
+strings = son cualquier tipo de caracter que este entre '' o ""
 
-string = son bloques de texto, formado por caracteres que deben esxribirse siempre entre '' o ""
+funcion = una funcion es un procedimiento que realiza una tarea o calcula un valor
 
-ej: 'hola'
+argumentos = son los valores con los que una funcion trabajara
 
-funciones = son objetos particulares llamados callable o invocables, inician con la palabra function
-lo que indica que lo que sigue es una funcion, luego de un espacio su nombre luego parentesis abierto y cerrado 
-y lueo corchete abierto y cerrado
+return = seria como el resultado de algo, por ejemplo un funcion 
 
-ej: function nvafuncion (condicion){
-    codigo;
-}
-
-para invocar una funcion se escribe su nombre seguido de parentesis abierto y cerrado
-
-ej: nvafuncion() = invocacion a la funcion anterior.
-
-argumentos = objetos especiales de datos que se genera en el interior de cada función recogiendo todos los parámetros 
-(argumentos) que se han enviado a la misma.
-
-return = sentencia que finaliza una funcion y devulve un valor 
-
-statements = Declaraciones sirven para controlar la ejecucion de un codigo si se cumplen determinadas condiciones 
-
-ej: el conditional statmen || declaracion condicional =
-
- if (condicion) {
-   codigo;
-} que indica como debe ejecutarse el codigo si se cumple la condicion requerida
+statements = Declaraciones, son las condiciones que se deben cumplir por ejemplo en un funcion
 
 booleanos = los buleanos tienen dos valores, true o false, verdadero o falso.
 
