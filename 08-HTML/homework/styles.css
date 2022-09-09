@@ -1,17 +1,57 @@
 h1{
-    color: chocolate;
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+    color: rgb(0, 0, 0);
+    font-size: 70px;
     }
+h3 {
+    text-align: center; font-size: 25px;
+    display: block;
+    margin: 0px auto;
+    color: rgb(250, 237, 5);
+   }
+h4 {
+    text-align: center; font-size: 20px;
+    display: block;
+    margin: 5px auto;
+    color: rgb(9, 9, 0);
+}
 img{
+    margin: 20px;
+    margin-left: auto;
+    margin-top: auto;
     width: 400;
+    padding: 5px; background-color: black;
     }
+#ul{
+    margin-left: -16px;
+}
 #thirdDiv{
-    height: 600; 
-    width: 500; 
-    background-color: brown; 
-    padding: 50px; 
-    border: 30px solid chocolate;
+    display: block;
+    margin: 0px auto;
+    height: 450; 
+    width: 450; 
     }
 #spanId{
-     font-size: 18px; 
-     margin: 50px;
+    display: block;
+    text-align: center;
+    font-size: 35px; 
      }
+     #dicClass{
+        padding: 20px; color: aqua;
+     }
+#link{
+    padding: 10px; 
+    border-color: red; border-radius: 50px; border-bottom: 50px;
+    display: block;
+    text-align: center;
+    font-size: 20px; font-style: oblique;
+    }
+a{
+    color: rgb(72, 72, 255);
+
+}
+body {
+    background-image: url("http://www.solofondos.com/wp-content/uploads/2015/11/21omxpw.jpg");
+}
